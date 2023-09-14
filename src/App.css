@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+  direction: rtl;
+}
+html{
+  --bg: #333333;
+  --bg-panel: #434343;
+  --color-heading: #0077ff; 
+  --color-text: #B5B5B5;
+}
+body{
+  width: 100% !important;
+  overflow-x: hidden;
+}
+a,ul,li,p,article,section,div,img{
+  border: 0;
+  outline: 0;
+  color: none;
+  font-style: none;
+  list-style: none;
+  text-decoration: none;
+}
+
+input:focus-visible{
+  outline: 0;
+}

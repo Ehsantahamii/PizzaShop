@@ -1,0 +1,48 @@
+
+::before{
+    width: 100%;
+    position: absolute;
+    right: 15px;
+    top: -15px;
+    margin: 5px;
+    color: #000000;
+
+}
+.label-1::before{
+    content: 'نام : ';
+}
+.label-2::before{
+    content: 'شماره موبایل :';
+}
+.label-3::before{
+    content: 'شماره سفارش : ';
+}
+.label-4::before{
+    content: 'شماره میز : ';
+}
+.label-5::before{
+    content: 'ساعت :';
+}
+.label-6::before{
+    content: 'تاریخ :';
+}
+.label-7::before{
+    content: 'پیغام : ';
+}
+.label-8::before{
+    content: 'آدرس : ';
+}
+
+@media (max-width : 500px) {
+    .review-form{
+        height: auto !important;
+    }
+    .review-form form div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .review-form form div input , .review-form textarea{
+        max-width: 250px;
+    }
+}

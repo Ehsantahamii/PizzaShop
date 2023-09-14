@@ -1,0 +1,55 @@
+.popular-dishes {
+    font-weight: bold;
+    /* background: #000 url('/src/images/food-pattern.png') ; */
+    -webkit-backdrop-filter: bri(5px);
+    backdrop-filter: blur(5px);
+  
+}
+
+.popular-dishes .container {
+    max-width: 1200px;
+    margin: 60px auto;
+    flex-wrap: wrap;
+}
+.dish{
+    width: 350px;
+    height: 470px;
+}
+.dish img{
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+}
+.dish span{
+    left: -100%;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.dish:hover.dish span{
+    left: 5%;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+.dish span:hover.dish svg{
+    color: green;
+}
+.dish img [value ^= soda] {
+   background: palegreen;
+  }
+
+  @media (max-width: 425px) {
+    .dish{
+        margin: 0 1rem 0 1rem;
+    }
+    .dish img{
+        width: 80%;
+        height: 250px;
+        
+    }
+  }

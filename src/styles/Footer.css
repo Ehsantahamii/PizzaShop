@@ -1,0 +1,7 @@
+footer .copy-write{
+    border-top: 1px solid rgba(128, 128, 128, 0.392);
+    margin-top: 15px;
+}
+footer .container ul li {
+    color: rgba(128, 128, 128, 0.787) ;
+}

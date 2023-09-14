@@ -1,0 +1,47 @@
+.swiper {
+    max-height: 90vh;
+}
+
+.swiper-wrapper {
+    height: auto;
+}
+
+.swiper-wrapper img {
+    height: 90vh;
+}
+
+.swiper-wrapper .container {
+    max-width: 35%;
+    height: 100%;
+    top: 40%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateX(100px);
+    -webkit-transform: translateX(100px);
+    -moz-transform: translateX(100px);
+    -ms-transform: translateX(100px);
+    -o-transform: translateX(100px);
+    animation-name: slider-right;
+    animation-duration: 2s;
+}
+
+@keyframes slider-right {
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+        -webkit-transform: translateX(100px);
+        -moz-transform: translateX(100px);
+        -ms-transform: translateX(100px);
+        -o-transform: translateX(100px);
+}
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+}
+}
