@@ -9,9 +9,8 @@ import './index.css';
 const store = createStore(Reducer);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+
     <Provider store={store}>
       <App />
     </Provider>
-  </React.StrictMode>,
 )

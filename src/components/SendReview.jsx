@@ -18,7 +18,6 @@ const SendReview = () => {
               <input
                 type="text"
                 name="نام"
-                id="#"
                 className=" bg-zinc-100 w-[90%] mx-4 my-5 p-1 rounded-md"
               />
             </div>
@@ -26,7 +25,6 @@ const SendReview = () => {
               <input
                 type="text"
                 name="شماره موبایل"
-                id="#"
                 className=" bg-zinc-100 w-[90%]  mx-4 my-3 p-1 rounded-md"
               />
             </div>
@@ -37,7 +35,6 @@ const SendReview = () => {
               <input
                 type="text"
                 name="نام"
-                id="#"
                 className=" bg-zinc-100 w-[90%] mx-4 my-5 p-1 rounded-md"
               />
             </div>
@@ -45,7 +42,6 @@ const SendReview = () => {
               <input
                 type="text"
                 name="شماره موبایل"
-                id="#"
                 className=" bg-zinc-100 w-[90%]  mx-4 my-3 p-1 rounded-md"
               />
             </div>
@@ -55,7 +51,6 @@ const SendReview = () => {
               <input
                 type="time"
                 name="نام"
-                id="#"
                 className=" bg-zinc-100 w-[90%] mx-4 my-5 p-1 rounded-md"
               />
             </div>
@@ -63,7 +58,6 @@ const SendReview = () => {
               <input
                 type="date"
                 name="شماره موبایل"
-                id="#"
                 className=" bg-zinc-100 w-[90%]  mx-4 my-3 p-1 rounded-md"
               />
             </div>
@@ -73,7 +67,6 @@ const SendReview = () => {
               <textarea
                 type="text"
                 name="نام"
-                id="#"
                 className=" bg-zinc-100 w-[90%] min-h-[150px] mx-4 my-5 p-1 rounded-md"
               />
             </div>
@@ -81,7 +74,6 @@ const SendReview = () => {
               <textarea
                 type="text"
                 name="نام"
-                id="#"
                 className=" bg-zinc-100 w-[90%] min-h-[150px] mx-4 my-5 p-1 rounded-md"
               />
             </div>

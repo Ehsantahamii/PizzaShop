@@ -7,7 +7,7 @@ const Master = () => {
 
     return (
         <>
-        <div className="container flex gap-4 justify-center overflow-x-hidden-hidden" >
+        <div className="container flex py-4 gap-4 justify-center overflow-x-hidden-hidden" >
             <Dish item = {item} />
 
         </div>

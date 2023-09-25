@@ -24,3 +24,16 @@ a,ul,li,p,article,section,div,img{
 input:focus-visible{
   outline: 0;
 }
+.flex-vr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.show{
+  visibility: 1!important;
+  display: block!important;
+}
+.hide{
+  visibility: 0 !important;
+  display: none !important;
+}

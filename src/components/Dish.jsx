@@ -17,7 +17,7 @@ const Dish = (props) => {
 
         props.item.map((item) =>
 
-            <div className='dish relative text-center shadow-lg bg-white overflow-hidden'
+            <div className='dish relative text-center rounded-md shadow-lg bg-white overflow-hidden'
                 key={item.key} data-aos="fade-up">
                 <span className='absolute bg-slate-200 -left-full top-2  p-2 rounded-full cursor-pointer'>
                     <IoIosEye className=' w-5 h-5' />
